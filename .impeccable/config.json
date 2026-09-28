@@ -1,0 +1,62 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "src/pages/index.html"
+        ],
+        "createdAt": "2026-09-27T12:22:35.560Z",
+        "reason": "assistant-triaged false positive: display headings use clamp() up to 6rem via .display/.h-l/.h-xl in assets/css/styles.css against 1.0625rem body (>4x); verified in rendered screenshots"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "src/pages/crm.html"
+        ],
+        "createdAt": "2026-09-27T12:22:36.038Z",
+        "reason": "assistant-triaged false positive: display headings use clamp() up to 6rem via .display/.h-l/.h-xl in assets/css/styles.css against 1.0625rem body (>4x); verified in rendered screenshots"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "src/pages/websites.html"
+        ],
+        "createdAt": "2026-09-27T12:22:36.564Z",
+        "reason": "assistant-triaged false positive: display headings use clamp() up to 6rem via .display/.h-l/.h-xl in assets/css/styles.css against 1.0625rem body (>4x); verified in rendered screenshots"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "src/pages/software.html"
+        ],
+        "createdAt": "2026-09-27T12:22:36.999Z",
+        "reason": "assistant-triaged false positive: display headings use clamp() up to 6rem via .display/.h-l/.h-xl in assets/css/styles.css against 1.0625rem body (>4x); verified in rendered screenshots"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "src/pages/growth.html"
+        ],
+        "createdAt": "2026-09-27T12:22:37.545Z",
+        "reason": "assistant-triaged false positive: display headings use clamp() up to 6rem via .display/.h-l/.h-xl in assets/css/styles.css against 1.0625rem body (>4x); verified in rendered screenshots"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "src/pages/contact.html"
+        ],
+        "createdAt": "2026-09-27T12:22:38.330Z",
+        "reason": "assistant-triaged false positive: display headings use clamp() up to 6rem via .display/.h-l/.h-xl in assets/css/styles.css against 1.0625rem body (>4x); verified in rendered screenshots"
+      }
+    ]
+  }
+}

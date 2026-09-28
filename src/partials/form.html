@@ -1,0 +1,79 @@
+<div class="form">
+  <form class="form-body" data-enquiry novalidate>
+    <div class="form-grid">
+      <div class="field">
+        <label for="f-name">Your name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required>
+        <span class="err" role="alert"></span>
+      </div>
+      <div class="field">
+        <label for="f-company">Business name <span class="opt">(optional)</span></label>
+        <input id="f-company" name="company" type="text" autocomplete="organization">
+      </div>
+      <div class="field">
+        <label for="f-email">Email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+        <span class="err" role="alert"></span>
+      </div>
+      <div class="field">
+        <label for="f-phone">Phone or WhatsApp</label>
+        <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+91" required>
+        <span class="err" role="alert"></span>
+      </div>
+      <div class="field full" data-type-field>
+        <fieldset>
+          <legend>What do you need?</legend>
+          <div class="pills">
+            <label><input type="radio" name="type" value="Custom CRM" required><span>Custom CRM</span></label>
+            <label><input type="radio" name="type" value="Website"><span>Website</span></label>
+            <label><input type="radio" name="type" value="Online store"><span>Online store</span></label>
+            <label><input type="radio" name="type" value="Software or automation"><span>Software or automation</span></label>
+            <label><input type="radio" name="type" value="Marketing or seller services"><span>Marketing or seller services</span></label>
+            <label><input type="radio" name="type" value="Not sure yet"><span>Not sure yet</span></label>
+          </div>
+        </fieldset>
+        <span class="err" role="alert">Pick the closest option. "Not sure yet" is fine.</span>
+      </div>
+      <div class="field">
+        <label for="f-budget">Budget <span class="opt">(optional)</span></label>
+        <select id="f-budget" name="budget">
+          <option value="">Choose a range</option>
+          <option>₹5,000 to ₹13,000</option>
+          <option>₹13,000 to ₹18,000</option>
+          <option>₹25,000 to ₹35,000</option>
+          <option>₹36,000 to ₹50,000</option>
+          <option>Above ₹50,000</option>
+          <option>Help me work it out</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-timeline">When do you need it? <span class="opt">(optional)</span></label>
+        <select id="f-timeline" name="timeline">
+          <option value="">Choose a timeline</option>
+          <option>As soon as possible (express)</option>
+          <option>Within 2 weeks</option>
+          <option>Within a month</option>
+          <option>No fixed date</option>
+        </select>
+      </div>
+      <div class="field full">
+        <label for="f-message">Tell us about the project <span class="opt">(optional)</span></label>
+        <textarea id="f-message" name="message" placeholder="What does your business do, and what's slowing it down right now?"></textarea>
+      </div>
+    </div>
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit">Send enquiry</button>
+      <p>We reply within one working day. Your details are only used to get back to you.</p>
+    </div>
+  </form>
+  <div class="form-done" aria-live="polite">
+    <div class="tick"><svg width="28" height="28" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10.5l3.2 3.2L15 6.5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h3 data-done-title>Almost there.</h3>
+    <p class="lede" data-done-text></p>
+    <div class="row">
+      <a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener">Open WhatsApp</a>
+      <a class="btn btn-ghost" data-mail href="#">Send by email instead</a>
+    </div>
+    <p><button class="link" type="button" data-again style="background:none;border:0;padding:0;cursor:pointer">Start a new enquiry</button></p>
+  </div>
+</div>
